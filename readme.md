@@ -33,6 +33,8 @@ Compile the project using the included CMakeLists.txt:
 4) make
 4) sudo make install
 5) Your shared Library is ready for use.
+6) Import the shared library in code using #include <CustomLogger.hpp>
+7) Link the CMake File using find_package(Logger REQUIRED) target_link_libraries(myapp CustomLogger)
 
 ```
 
